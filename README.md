@@ -1,6 +1,6 @@
 
 # nodejs-coalesce
-Implementation of coalesce function in postgres sql: return the first argument that is not null
+Implementation of SQL's coalesce function: return the first argument that is not null
 
 # Features
 From Postgres document: [https://www.postgresql.org/docs/9.5/functions-conditional.html](https://www.postgresql.org/docs/9.5/functions-conditional.html)
@@ -11,11 +11,11 @@ From Postgres document: [https://www.postgresql.org/docs/9.5/functions-condition
 
 # Usage
 
-### Install to your project:
+### Install
 ```npm
 npm install pg-coalesce
 ```
-Using:
+### Using:
 ```javascript
 const coalesce = require("pg-coalesce");
 
