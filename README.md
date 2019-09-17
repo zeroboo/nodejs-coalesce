@@ -1,11 +1,11 @@
 
 # nodejs-coalesce
-Implementations of coalesce function in postgres sql
+Implementation of coalesce function in postgres sql: return the first argument that is not null
 
 # Features
 From Postgres document: [https://www.postgresql.org/docs/9.5/functions-conditional.html](https://www.postgresql.org/docs/9.5/functions-conditional.html)
 
-> The `COALESCE` function returns the first of its arguments that is not null. Null is returned only if all arguments are null. It is often used to substitute a default value for null values when data is retrieved for display.
+> The `COALESCE` function returns the first of its arguments that is not null. Null is returned only if all arguments are null.
 
 
 
@@ -13,7 +13,7 @@ From Postgres document: [https://www.postgresql.org/docs/9.5/functions-condition
 
 ### Install to your project:
 ```npm
-npm install pg-coalesce```
+npm install pg-coalesce
 ```
 Using:
 ```javascript

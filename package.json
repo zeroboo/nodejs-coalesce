@@ -1,7 +1,7 @@
 {
   "name": "pg-coalesce",
-  "version": "1.0.0",
-  "description": "Implementation of coalesce function in postgres sql",
+  "version": "1.0.1",
+  "description": "Implementation of coalesce function in postgres sql: return the first argument that is not null",
   "main": "./src/index.js",
   "scripts": {
     "test": "mocha ./test/test.js"
