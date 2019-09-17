@@ -1,0 +1,22 @@
+{
+  "name": "pg-coalesce",
+  "version": "1.0.0",
+  "description": "Implementation of coalesce function in postgres sql",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeroboo/nodejs-coalesce.git"
+  },
+  "keywords": [
+    "nodejs","postgres", "coalesce"
+  ],
+  "author": "zeroboo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeroboo/nodejs-coalesce/issues"
+  },
+  "homepage": "https://github.com/zeroboo/nodejs-coalesce#readme"
+}
