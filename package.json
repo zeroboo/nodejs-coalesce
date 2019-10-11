@@ -1,6 +1,6 @@
 {
   "name": "pg-coalesce",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Implementation of Postgres SQL's coalesce function: return the first argument that is not null",
   "main": "./src/index.js",
   "scripts": {
@@ -13,7 +13,9 @@
   "keywords": [
     "nodejs",
     "postgres",
-    "coalesce", "sql"
+    "coalesce",
+    "null",
+    "sql"
   ],
   "author": "zeroboo",
   "license": "ISC",
